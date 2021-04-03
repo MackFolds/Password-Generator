@@ -55,28 +55,6 @@ function generatePassword() {
       var randElement = caseArray[randIndex]; //gets the character with that index from caseArray
       finalPassword.push(randElement)
 
-      // var randomCharArrayNum;
-      // var selectedCharArray;
-      // var randomCharNum;
-      // var randomChar;
-      // var passwordGen = "";
-
-      // randomCharArrayNum = parseInt(Math.floor(Math.random() * caseArray.length));
-
-      // selectedCharArray = caseArray[randomCharArrayNum];
-      // console.log("The array has " + caseArray.length + " entries");
-      // console.log(randomCharArrayNum);
-
-      // randomCharNum = Math.floor(Math.random() * selectedCharArray.length);
-      // console.log("The selected Array is the " + selectedCharArray);
-      // console.log("The selected random index is " + randomCharNum);
-
-      // randomChar = selectedCharArray[randomCharNum];
-      // console.log(randomChar);
-      // console.log("Your random character array num is " + randomCharArrayNum + " and your random character number is " + randomCharNum);
-
-      // passwordGen += randomChar;
-
   }
   return finalPassword.join('');
 };
